@@ -1,0 +1,6 @@
+def printIncreasingPower(x):
+    n = 1
+    # Loop to jump in powers of 2
+    while(n**2 <= x ):
+        print (n**2, end = " ")
+        n += 1  
