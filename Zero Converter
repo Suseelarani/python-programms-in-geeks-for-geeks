@@ -1,0 +1,13 @@
+def pos(n):
+    ## Write the code
+    for i in range(n):
+        print(n-1-i,end=" ")
+        
+    
+def neg(n):
+    ##Write the code
+    for i in range(abs(n)+1):
+        print(n+i,end=" ")
+def zero(n):
+    print("already zero")
+    
